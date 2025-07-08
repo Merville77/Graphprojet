@@ -27,3 +27,21 @@ def saisir_noeuds():
     print("=== SAISIE DES NŒUDS ===")
 
     while True:
+'pays': {'color': '#4A4A4A', 'shape': 'h'},
+        'ville': {'color': '#8B572A', 'shape': 'H'},
+        'quartier': {'color': '#417505', 'shape': '8'},
+        'continent': {'color': '#2E3440', 'shape': '*'},
+        'default': {'color': '#666666', 'shape': 'o'}
+    }
+
+    return couleurs_types.get(type_noeud.lower(), couleurs_types['default'])
+
+
+def saisir_noeuds():
+    """Permet à l'utilisateur de saisir les nœuds"""
+    print("=== SAISIE DES NŒUDS ===")
+
+    while True:
+
+
+    
